@@ -1,0 +1,31 @@
+package UstDemo;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		int i;
+		for(i=1;i<=8;i++)
+		{
+			while(i<=3)
+			{
+				System.out.println(""+i+""+(i+1));
+				i=i+1;
+			}
+			
+			/*if(i==4)
+			{
+				System.out.println((i+1)+""+(i+1)+"");
+				i=i+1;
+				System.out.println();
+				
+				}
+			else
+			{
+				System.out.println(""+i+""+(i+1));
+				System.out.println();
+			}*/
+		}
+
+	}
+
+}

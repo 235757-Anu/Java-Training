@@ -1,0 +1,19 @@
+package UstDemo;
+import java.util.Scanner;
+
+public class Average {
+
+	public static void main(String[] args) {
+		int a[],i;1
+		float avg=0;
+		Scanner s = new Scanner(System.in);
+		a=new int [10];
+		System.out.println("Enter Ten Numbers");
+		for(i=1;i<=10;i++)
+		{
+			a[i] =s.nextInt();
+		}
+
+	}
+
+}
