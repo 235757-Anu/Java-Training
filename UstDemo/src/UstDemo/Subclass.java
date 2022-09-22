@@ -1,27 +1,27 @@
 package UstDemo;
 
-class Shape{
+class Shape1{
 	void show4()
 	{
 		System.out.println("This is shape");
 	}
 }
 
-class Rectangle extends Shape
+class r1 extends Shape1
 {
 	void show1()
 	{
 		System.out.println("This is Rectangular shape");
 	}
 }
-class Square extends Rectangle
+class s1 extends r1
 {
 	void show2()
 	{
 		System.out.println("Square is a Rectangle");
 	}
 }
-class Circle extends Shape
+class c1 extends Shape1
 {
 	void show3()
 	{
@@ -34,7 +34,7 @@ class Circle extends Shape
 public class Subclass {
 
 	public static void main(String[] args) {
-		Square s=new Square();
+		s1 s=new s1();
 		s.show4();
 		s.show1();
 	}

@@ -1,4 +1,4 @@
-package UstDemo;
+package xample;
 
 import java.util.*;
 public class A7 {
@@ -10,7 +10,7 @@ public class A7 {
 		Integer[] a= {21,23,32,45,56};
 		s.addAll(Arrays.asList(a));
 		System.out.println(s);
-		Integer[] i= {21,23,32,45,56,67.81};
+		Integer[] i= {21,23,32,45,56,67,81};
 		se.addAll(Arrays.asList(i));
 		System.out.println(se);
 		System.out.println("The common elemnent is :");

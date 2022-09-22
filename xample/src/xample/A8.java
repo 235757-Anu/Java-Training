@@ -1,4 +1,4 @@
-package UstDemo;
+package xample;
 import java.util.*;
 
 public class A8 {

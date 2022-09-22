@@ -1,8 +1,10 @@
-package UstDemo;
-import java.util.HashSet;
-import java.util.*;
+package xample;
 
-public class A6 {
+import java.util.HashSet;
+
+
+
+public class Assignment2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,8 +17,6 @@ public class A6 {
 		HashSet<Integer> s=new HashSet<Integer>();
 		s=(HashSet)hs.clone();
 		System.out.println("Cloned Hash set elements is:"+s);
-		
-		
 
 	}
 

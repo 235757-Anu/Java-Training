@@ -1,0 +1,2 @@
+module Mooctest {
+}
