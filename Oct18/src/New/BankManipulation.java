@@ -1,4 +1,4 @@
-/*package New;
+package New;
 import java.util.*;
 
 public class BankManipulation {
@@ -139,7 +139,7 @@ class Library{
         }
         return count;
     }
-}*/
+}
 	
 
 
