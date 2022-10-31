@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+<!--<bean id="Person" class="testing.di.Person">
+<property name="name" value="Anu"></property>
+<property name="department" value="Java"></property></bean>-->
+
+<bean id="Person" class="testing.di.Person">
+<constructor-arg value="Anu"></constructor-arg>
+<constructor-arg value="Java"></constructor-arg>
+</bean>
+</beans>
